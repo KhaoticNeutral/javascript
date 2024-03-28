@@ -1,0 +1,12 @@
+const myList = [];
+myList.push("bee's", "shovel", "box");
+myList.splice(1, 1, "shovel", "gloves");
+const removeLast = myList.pop();
+console.log(removeLast);
+myList.sort();
+console.log(myList.indexOf("bee's"));
+myList.splice(1, 0, "bleach", "soil");
+const myList2 = ["seeds", "rope"];
+const finalList = myList.concat(myList2, myList2);
+console.log(finalList.lastIndexOf("rope"));
+console.log(finalList);
